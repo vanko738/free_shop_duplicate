@@ -1,0 +1,105 @@
+.details {
+  max-width: 70%;
+  margin: 10px auto;
+  background: #4a82cb;
+  border-radius: 20px;
+  padding: 30px 50px;
+  line-height: 1.6;
+}
+.details-title {
+  text-align: center;
+  font-size: 2em;
+  border-bottom: 2px solid #fdfefa;
+  padding-bottom: 5px;
+  color: #fdfefa;
+}
+.details-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-info-img {
+  width: 50%;
+}
+.details-info-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  box-shadow: -1px 1px 4px 2px #fdfefa;
+}
+.details-text {
+  width: 450px;
+  margin: 0;
+  background-color: beige;
+  padding: 15px 10px 0 15px;
+  border-radius: 10px;
+  overflow-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.article-info {
+  background-color: bisque;
+  width: 100%;
+  border-radius: 10px;
+  padding: 7px 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.art-info-items {
+  font-style: italic;
+  width: 50%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  padding: 15px 0;
+  border-radius: 10px;
+}
+.buttons .button {
+  text-decoration: none;
+  background-color: #ffe4c4;
+  color: black;
+  border: none;
+  padding: 2px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.button.del:hover {
+  background-color: red;
+}
+.button.like:hover {
+  background-color: green;
+}
+.button.edit:hover {
+  background-color: orange;
+}
+.button.back:hover {
+  background-color: rgb(229, 255, 0);
+}
+strong {
+  color: red;
+  padding-right: 25px;
+}
+.dt-likes {
+  color: rgb(128, 0, 49);
+}
+.seler-info li:nth-child(1) {
+  text-transform: capitalize;
+}
+.message-box {
+  max-width: 50%;
+}
+
+.likes-dtl {
+  background-color: rgb(98, 212, 5);
+  text-align: center;
+  font-size: 1em;
+  border-radius: 50px;
+  width: 20%;
+  margin: auto;
+  font-weight: bold;
+}

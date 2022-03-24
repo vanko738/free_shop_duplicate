@@ -1,0 +1,31 @@
+.chat-msg-box {
+  max-width: 90%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.chat-avatar {
+  padding: 10px;
+}
+.chat-av-name {
+  margin: 0;
+  background-color: rgb(145, 255, 0);
+  color: rgb(68, 61, 61);
+  padding: 6px;
+  border-radius: 100%;
+}
+.chat-message {
+  font-size: 13px;
+  margin: 5px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.msg-time {
+  font-size: 10px;
+  align-self: flex-end;
+}

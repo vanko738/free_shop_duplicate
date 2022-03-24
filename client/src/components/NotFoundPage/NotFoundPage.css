@@ -1,0 +1,15 @@
+.wrong-page {
+  width: 100vw;
+}
+.not-found-img {
+  max-width: 40%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.wrong-page-title {
+  text-align: center;
+  font-size: 3em;
+  color: #4a82cb;
+}

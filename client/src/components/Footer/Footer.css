@@ -1,0 +1,24 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #b9e3f7;
+}
+.footer-nav-items {
+  display: flex;
+  margin: 5px;
+}
+.footer-title {
+  font-size: 1.2em;
+  margin: 5px;
+  color: #3f82ec;
+  font-style: italic;
+}
+.footer-nav-items li {
+  padding-left: 10px;
+}

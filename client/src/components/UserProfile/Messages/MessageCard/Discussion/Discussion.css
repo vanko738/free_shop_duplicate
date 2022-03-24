@@ -1,0 +1,97 @@
+.discussion-container {
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: #c8e6f3;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*Article-Info*/
+.discussion-article-info-img {
+  background-color: rgb(178, 211, 212);
+  max-width: 40%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 30px 0;
+  padding: 20px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.discussion-article-info-title {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.discussion-art-img img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+.discussion-ul-items {
+  max-width: 200px;
+  margin: auto;
+}
+.discussion-ul-items li {
+  margin-bottom: 30px;
+  font-style: italic;
+  color: rgb(20, 17, 17);
+}
+
+/* Chat-Container */
+.chat-msg-container {
+  background-color: rgb(178, 211, 212);
+  max-width: 60%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 30px 0;
+  padding: 20px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.dsc-chat-msg-title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.my-msg-stra {
+  width: 700px;
+  height: 300px;
+  overflow: auto;
+}
+/*  my message */
+
+/* Form msg */
+.form-msg {
+  max-width: 80%;
+  margin-top: 40px;
+}
+#txt-area {
+  max-width: 100%;
+  max-height: 30vh;
+  border-radius: 5px;
+  background-color: beige;
+}
+.del-discussion {
+  flex-basis: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.del-discuss-btn {
+  background-color: rgb(238, 183, 30);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 7px 20px;
+}
+.del-discuss-btn:hover {
+  background-color: red;
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
+
+.comments-box {
+  background-color: #e8f1cd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comments-title {
+  flex-basis: 100%;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border-bottom: 1px solid lightgray;
+}
+.comment-form {
+  display: flex;
+  flex-direction: column;
+}
+#inp-name {
+  max-width: 250px;
+  margin-bottom: 10px;
+  padding: 4px;
+  border-radius: 5px;
+}
+#comment-area {
+  max-width: 700px;
+  border-radius: 5px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  padding-left: 7px;
+}
+#cm-submit {
+  max-width: 200px;
+  border-radius: 5px;
+  background-color: rgb(241, 176, 35);
+  margin: 10px auto;
+}
+.cmt-container {
+  max-width: 100%;
+  margin: 40px 0;
+}
+.show-hide-comments {
+  background-color: #2357ba;
+  color: #fdfefa;
+  border-radius: 5px;
+  border: none;
+  padding: 4px 6px;
+  margin-bottom: 5px;
+}
+.show-hide-comments:hover {
+  background-color: #f1b023;
+}

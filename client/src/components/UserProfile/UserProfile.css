@@ -1,0 +1,113 @@
+.profile {
+  margin: 20px 50px;
+  display: flex;
+  background-color: #b9e3f7;
+  justify-content: space-between;
+  font-family: Helvetica, sans-serif;
+}
+.profile-img-liks-section {
+  margin: 5px auto;
+  width: 25%;
+  background-color: #333333;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.profile-img-section {
+  max-width: 100%;
+}
+.profile-img-section img {
+  border-radius: 100px;
+  max-width: 150px;
+  margin: 20px;
+}
+.nav-links {
+  padding: 0;
+}
+.nav-links li {
+  padding-bottom: 7px;
+}
+.nav-links a {
+  color: #c2dd9e;
+  font-size: large;
+}
+.profile-links-section {
+  margin-top: 20px;
+}
+.uploadImg form {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(224, 146, 159);
+  text-align: center;
+}
+.uploadImg form label {
+  flex-basis: 100%;
+}
+.uploadImg #img {
+  width: 50%;
+  border-radius: 10px;
+}
+.uploadImg .submitbtn {
+  padding: 1 3px;
+  width: 95px;
+  margin: auto;
+}
+.uploadImg .submitbtn:hover {
+  background-color: #a6f4ff;
+}
+
+.profile-info {
+  width: 70%;
+  background-color: floralwhite;
+  border-radius: 5px;
+  margin: 5px auto;
+}
+.user-info {
+  padding: 0 20px;
+  font-size: large;
+}
+
+.user-info p {
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 8px;
+}
+.user-info-title {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #626d53;
+}
+
+.user-info p {
+  display: flex;
+  justify-content: space-between;
+}
+.user-info p .data-span {
+  padding-right: 100px;
+  color: #3f82ec;
+}
+.user-info-name strong {
+  text-transform: capitalize;
+}
+.profile-info-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: scroll;
+  height: 400px;
+}
+
+.profile-article-title {
+  font: italic small-caps bold 12px/30px Georgia, serif;
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  color: #626d53;
+}
+.no-liked-art {
+  margin: auto;
+  font: italic small-caps bold 12px/30px Georgia, serif;
+  color: #626d53;
+}

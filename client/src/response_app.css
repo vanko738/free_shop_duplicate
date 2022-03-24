@@ -1,0 +1,139 @@
+@media (max-width: 950px) {
+  header {
+    flex-direction: column;
+  }
+  .homePage {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-text-box {
+    font-size: 30px;
+    margin-top: 120px;
+  }
+  .details-text {
+    max-width: 50%;
+    font-size: 10px;
+  }
+  .details-info-img img {
+    max-width: 70%;
+    min-height: 50%;
+  }
+  #comment-area {
+    width: 80%;
+    margin: auto;
+  }
+  #inp-name {
+    width: 50%;
+    margin: auto;
+  }
+  .comment-container {
+    max-width: 90%;
+    margin: auto;
+  }
+  .my-msg-stra {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  .homePage {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-text-box {
+    font-size: 30px;
+    margin-top: 120px;
+  }
+  .footer {
+    flex-direction: column;
+    min-height: 4.5rem;
+  }
+  .catalog {
+    padding-bottom: 40px;
+  }
+  .register-form label,
+  .register-form input,
+  .login-form label,
+  .login-form input {
+    font-size: 10px;
+  }
+  /* catalog */
+  .cards .card {
+    width: 140px;
+  }
+  .cards .card .img img {
+    width: 80px;
+    height: 100px;
+  }
+
+  /* Details */
+  .details-info {
+    flex-direction: column;
+  }
+  .details-info-img {
+    min-width: 100%;
+  }
+  .details-info-img img {
+    min-width: 100%;
+    margin: auto;
+  }
+  .details-text {
+    max-width: 100%;
+  }
+  .article-info {
+    flex-direction: column;
+  }
+  .art-info-items {
+    min-width: 100%;
+  }
+  .message-box {
+    min-width: 90%;
+  }
+  #root > section > section > article.article-info > article > form {
+    margin: auto;
+  }
+  /* Profile */
+  .profile {
+    flex-direction: column;
+  }
+  .profile-img-liks-section {
+    min-width: 70%;
+  }
+  .profile-img-section img {
+    width: 110px;
+  }
+  /* Messages */
+  .msg-box-content {
+    flex-wrap: wrap;
+  }
+  .message-conrainer {
+    padding-bottom: 30px;
+  }
+  .msg-box-message-content {
+    font-size: 0.7em;
+    max-width: 100%;
+  }
+
+  .discussion-container {
+    flex-direction: column;
+  }
+  .discussion-article-info-img {
+    min-width: 100%;
+  }
+  .discussion-art-img {
+    width: 100%;
+  }
+  .discussion-art-img img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .chat-msg-container {
+    min-width: 100%;
+  }
+  .del-discuss-btn {
+    margin-bottom: 20px;
+  }
+}

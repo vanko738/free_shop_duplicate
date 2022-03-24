@@ -1,0 +1,27 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.catalog-title {
+  flex-basis: 100%;
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+  border-bottom: 2px solid #3f82ec;
+  color: #3f82ec;
+  padding-bottom: 20px;
+  margin: 10px auto;
+}
+
+.sv-msg {
+  font-size: 1.5em;
+  
+}

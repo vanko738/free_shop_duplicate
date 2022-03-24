@@ -1,0 +1,50 @@
+.card {
+  max-width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #4a82cb;
+  padding: 10px 10px;
+  color: #fdfefa;
+  box-shadow: -1px 1px 8px 3px #000000;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.img {
+  max-width: 100%;
+  padding: 10px;
+}
+.img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.card-info {
+  width: 50%;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+.details-btn {
+  width: 100%;
+  text-decoration: none;
+  color: oldlace;
+  font-weight: bold;
+}
+.details-btn:hover {
+  color: rgb(236, 182, 3);
+}
+.likes i {
+  color: rgb(199, 13, 13);
+  font-size: 1.2em;
+}
+.price {
+  color: #95a681;
+}

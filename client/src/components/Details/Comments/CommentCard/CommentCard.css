@@ -1,0 +1,36 @@
+.comment-container {
+  background-color: rgb(248, 237, 237);
+  width: 624px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding: 7px;
+}
+
+.comment {
+  margin: 4px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.comment.title,
+.comment.time {
+  text-align: center;
+}
+.comment.time {
+  font-size: 0.8em;
+  margin: 0;
+  color: rgb(18, 18, 165);
+  font-size: 0.7em;
+  text-align: right;
+  padding-right: 5px;
+}
+.comment.title,
+.text {
+  border-bottom: 1px solid lightgray;
+}
+.comment.title {
+  color: cadetblue;
+  text-align: left;
+  font-size: 1em;
+}
