@@ -28,7 +28,6 @@ export default function Animals(props) {
             description: e.description,
             category: 'animals'
         }
-
         try {
             const result = await createArticle(data);
             if (result.status === 404) {

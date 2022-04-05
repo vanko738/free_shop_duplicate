@@ -8,6 +8,7 @@ async function createUser(username, email, hashedPassword) {
         email,
         hashedPassword
     });
+    console.log('This is create user funct');
     await user.save()
         .then(doc => { })
         .catch(err => {

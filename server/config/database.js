@@ -1,10 +1,9 @@
 const mongoose = require('mongoose');
-const config = require('./config');
-
+const {MONGO_URL} = require('./db_url');
 
 module.exports = (app) => {
     return new Promise((resolve, reject) => {
-        mongoose.connect(config.DB_CONNECTION, {
+        mongoose.connect(MONGO_URL, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });

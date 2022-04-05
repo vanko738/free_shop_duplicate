@@ -19,6 +19,7 @@ export default function ModelLayout({ data }) {
                 type="text"
                 id="image"
                 name="image"
+                placeholder="Please use the URL address of the selected picture!"
             />
             <ErrorMessage name="image" component={Notification} />
 

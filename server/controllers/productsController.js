@@ -10,6 +10,7 @@ const { preloadArt } = require('../middlewares/preload');
 
 // Home
 router.get('/', async (req, res) => {
+
     try {
         const result = await req.storage.getAll();
         res.json({ article: result, status: 200 })

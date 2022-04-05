@@ -35,6 +35,7 @@
   }
 }
 
+/* MEDIA  600px */
 @media (max-width: 600px) {
   header {
     flex-direction: column;
@@ -42,6 +43,12 @@
   .homePage {
     flex-direction: column;
     align-items: center;
+  }
+  .homePage-img {
+    min-width: 100%;
+  }
+  .home-message {
+    min-width: 100%;
   }
   .home-text-box {
     font-size: 30px;
@@ -54,12 +61,6 @@
   .catalog {
     padding-bottom: 40px;
   }
-  .register-form label,
-  .register-form input,
-  .login-form label,
-  .login-form input {
-    font-size: 10px;
-  }
   /* catalog */
   .cards .card {
     width: 140px;
@@ -68,8 +69,14 @@
     width: 80px;
     height: 100px;
   }
+  .info {
+    flex-direction: column;
+  }
 
   /* Details */
+  .details {
+    min-width: 100%;
+  }
   .details-info {
     flex-direction: column;
   }
@@ -82,6 +89,7 @@
   }
   .details-text {
     max-width: 100%;
+    font-size: 20px;
   }
   .article-info {
     flex-direction: column;
@@ -96,25 +104,40 @@
     margin: auto;
   }
   /* Profile */
+
   .profile {
     flex-direction: column;
   }
   .profile-img-liks-section {
-    min-width: 70%;
+    min-width: 90%;
   }
   .profile-img-section img {
     width: 110px;
+  }
+  .profile-info {
+    min-width: 90%;
   }
   /* Messages */
   .msg-box-content {
     flex-wrap: wrap;
   }
   .message-conrainer {
-    padding-bottom: 30px;
+    min-width: 100%;
+    height: 60ch;
   }
   .msg-box-message-content {
     font-size: 0.7em;
-    max-width: 100%;
+  }
+  .msg-box {
+    min-width: 90%;
+    font-size: 1.6em;
+  }
+  .chat-msg-box,
+  .chat-msg-box-me {
+    min-width: 100%;
+  }
+  #txt-area {
+    font-size: 1.5em;
   }
 
   .discussion-container {
@@ -135,5 +158,74 @@
   }
   .del-discuss-btn {
     margin-bottom: 20px;
+  }
+  /* create , edit*/
+  .create-article,
+  .edit-article {
+    min-width: 100%;
+  }
+  .create-article-box form,
+  .edit-article-box form {
+    min-width: 80%;
+  }
+
+  /*login /register*/
+  .login-box,
+  .register-box {
+    min-width: 100%;
+  }
+  .login-form,
+  .register-form {
+    min-width: 100%;
+  }
+  .register-box .register-untertitle,
+  .signin,
+  .signup,
+  .login-untertitle,
+  .login-form label,
+  .login-form input,
+  .register-form label,
+  .register-form input,
+  .create-article-box .create-art-untertitle,
+  .create-article-box form label,
+  .edit-article-box form label {
+    font-size: large;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  #hm-txt-bx {
+    position: static;
+    transform: none;
+  }
+}
+@media (max-width: 350px) {
+  .homePage-img {
+    min-width: 50%;
+  }
+  .nav {
+    margin: 0;
+  }
+  .footer .footer-title {
+    font-weight: 100;
+    font-size: medium;
+  }
+  .cards .card {
+    width: 37%;
+  }
+  article.likes-dtl {
+    width: 50%;
+  }
+  article.article-info > ul > li {
+    font-size: smaller;
+  }
+  .details-text {
+    font-size: medium;
+  }
+  .user-info p strong.data-span {
+    padding: 0;
+  }
+  #root > header > nav > ul {
+    padding: 0;
   }
 }

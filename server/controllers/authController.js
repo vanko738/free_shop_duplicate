@@ -24,7 +24,7 @@ router.post('/register',
                 throw new Error("Failed! Name is already in use!")
             };
             if (isEmailTaken) {
-                throw new Error("Failed! Name is already in use!")
+                throw new Error("Failed! Email is already in use!")
             };
 
             try {
@@ -56,6 +56,7 @@ router.post('/register',
     });
 
 router.post('/login', async (req, res) => {
+
     try {
         await req.auth.login(req.body);
         const user = req.user;

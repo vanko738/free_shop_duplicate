@@ -22,7 +22,6 @@ export default function Login() {
             email: e.email,
             password: e.password
         }
-
         try {
             const result = await login(data);
             if (result.status === 404) {

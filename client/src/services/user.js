@@ -1,8 +1,7 @@
-
-
-
+const {REACT_APP_BASE_URL} = process.env;
+ 
 export function register(data) {
-    return fetch('http://localhost:5000/auth/register', {
+    return fetch(`${REACT_APP_BASE_URL}/auth/register`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -13,7 +12,7 @@ export function register(data) {
 }
 
 export function login(data) {
-    return fetch('http://localhost:5000/auth/login', {
+    return fetch(`${REACT_APP_BASE_URL}/auth/login`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -23,14 +22,14 @@ export function login(data) {
     }).then(res => res.json());
 }
 export function logout() {
-    return fetch('http://localhost:5000/auth/logout', {
+    return fetch(`${REACT_APP_BASE_URL}/auth/logout`, {
         method: 'GET',
         credentials: 'include'
     })
 }
 
 export function sendMessage(data) {
-    return fetch('http://localhost:5000/auth/sendMessage', {
+    return fetch(`${REACT_APP_BASE_URL}/auth/sendMessage`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -40,17 +39,17 @@ export function sendMessage(data) {
     }).then(res => res.json());
 }
 export function getUserMessages(userId) {
-    return fetch('http://localhost:5000/auth/getUserMessages/' + userId, {
+    return fetch(`${REACT_APP_BASE_URL}/auth/getUserMessages/` + userId, {
         credentials: 'include',
     }).then(res => res.json());
 }
 export function getAllMessagesForCurrentArticle(artId, senderId) {
-    return fetch('http://localhost:5000/auth/getAllMessagesForCurrentArticle/' + artId + "/" + senderId, {
+    return fetch(`${REACT_APP_BASE_URL}/auth/getAllMessagesForCurrentArticle/` + artId + "/" + senderId, {
         credentials: 'include',
     }).then(res => res.json());
 }
 export function deleteDiscussion(artId, recieverId, senderId) {
-    return fetch('http://localhost:5000/auth/deleteDiscussion', {
+    return fetch(`${REACT_APP_BASE_URL}/auth/deleteDiscussion`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

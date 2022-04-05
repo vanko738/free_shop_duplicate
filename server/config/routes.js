@@ -4,11 +4,10 @@ const authController = require('../controllers/authController');
 
 
 module.exports = (app) => {
-    app.use('/products', productsController);
-    app.use('/auth/', authController);
+    app.use('/api/products', productsController);
+    app.use('/api/auth', authController);
 
-    app.use('/', homeController);
-
+    app.use('/api/home', homeController);
     app.use('*', (req, res) => {
         res.json({ status: '404', message: 'Not found page' })
     });
