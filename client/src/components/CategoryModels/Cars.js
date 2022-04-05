@@ -6,7 +6,7 @@ import { carsSchema } from '../../yupSchemaValidation/modelsValidation';
 import Notification from '../Notification/InputNotification/Notification'
 
 import { createArticle, updateArticle } from '../../services/article';
-import { carEditModel } from '../Edit/editModel/editModel';
+import { carEditModel } from '../Edit/EditModel/editModel';
 
 import ModelLayout from '../CategoryModels/Layout/ModelLayout';
 

@@ -9,15 +9,15 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 import HomePage from './components/HomePage';
-import Catalog from './components/catalog/Catalog';
+import Catalog from './components/Catalog/Catalog';
 import UserProfile from './components/UserProfile';
 import Messages from './components/UserProfile/Messages/Messages';
 import Discussion from './components/UserProfile/Messages/MessageCard/Discussion';
 
 import AuthRoute from './components/Guards/AuthRoute';
 
-import Login from './components/auth/Login';
-import Register from './components/auth/Register';
+import Login from './components/auth/login';
+import Register from './components/auth/register';
 import NotFoundPage from './components/NotFoundPage';
 
 import Create from './components/Create';

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import UserContext from '../../context/UserDataContext';
 
 import './UserProfile.css';
-import ArtCard from '../catalog/Card/ArtCard'
+import ArtCard from '../Catalog/Card/ArtCard';
 import { getUserLikedCreatedArticles } from '../../services/article';
 
 
