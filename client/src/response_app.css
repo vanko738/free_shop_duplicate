@@ -228,4 +228,11 @@
   #root > header > nav > ul {
     padding: 0;
   }
+  #root > header > nav > ul {
+    padding: 0;
+  }
+  #root > header > nav > ul {
+    padding: 0;
+    margin: 30px;
+  }
 }
